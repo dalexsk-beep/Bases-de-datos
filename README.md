@@ -1,2 +1,2 @@
-# prueba
+# Base de datos
 .
