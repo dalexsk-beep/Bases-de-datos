@@ -1,0 +1,1 @@
+DELETE FROM clases WHERE ROWID = (SELECT MAX(ROWID) FROM clases WHERE id_clase = 'C004' AND matricula = 'D018');

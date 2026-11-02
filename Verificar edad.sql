@@ -1,0 +1,1 @@
+SELECT * FROM  estudiantes WHERE matricula = 'D010';

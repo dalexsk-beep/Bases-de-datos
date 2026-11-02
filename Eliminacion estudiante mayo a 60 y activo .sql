@@ -1,0 +1,2 @@
+DELETE FROM estudiantes
+WHERE edad  > 60 AND activo = 1

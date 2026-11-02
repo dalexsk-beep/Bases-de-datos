@@ -1,0 +1,1 @@
+SELECT * FROM estudiantes WHERE  activo = 0 AND edad < 30

@@ -1,0 +1,1 @@
+DELETE FROM estudiantes WHERE matricula = 'D014'

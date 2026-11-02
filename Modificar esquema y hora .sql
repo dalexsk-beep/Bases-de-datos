@@ -1,0 +1,2 @@
+ALTER TABLE pruebas.categoria
+ADD COLUMN fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP;

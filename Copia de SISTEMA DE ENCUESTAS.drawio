@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="RN2IHrF86uKLTFdlX9FS">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;fontStyle=1;fontSize=15;" value="SISTEMA DE ENCUESTAS" vertex="1">
+          <mxGeometry height="60" width="260" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;fontStyle=1;" value="GESTIÓN DE USUARIOS" vertex="1">
+          <mxGeometry height="50" width="220" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;fontStyle=1;" value="DISEÑO DE ENCUESTAS" vertex="1">
+          <mxGeometry height="50" width="220" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;fontStyle=1;" value="MÓDULO DE RESPUESTAS" vertex="1">
+          <mxGeometry height="50" width="220" x="580" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n1_4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;fontStyle=1;" value="REPORTES Y ANALÍTICA" vertex="1">
+          <mxGeometry height="50" width="220" x="840" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e_root_1" edge="1" parent="1" source="root" target="n1_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_root_2" edge="1" parent="1" source="root" target="n1_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_root_3" edge="1" parent="1" source="root" target="n1_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_root_4" edge="1" parent="1" source="root" target="n1_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Administradores" vertex="1">
+          <mxGeometry height="40" width="130" x="20" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Respondientes" vertex="1">
+          <mxGeometry height="40" width="130" x="160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Categorías y Plantillas" vertex="1">
+          <mxGeometry height="40" width="130" x="310" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Secciones de Encuesta" vertex="1">
+          <mxGeometry height="40" width="130" x="450" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="En Progreso" vertex="1">
+          <mxGeometry height="40" width="100" x="590" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Finalizadas" vertex="1">
+          <mxGeometry height="40" width="100" x="700" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Estadísticas Agrupadas" vertex="1">
+          <mxGeometry height="40" width="115" x="830" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="n2_8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Exportación de Datos" vertex="1">
+          <mxGeometry height="40" width="115" x="955" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_1" edge="1" parent="1" source="n1_1" target="n2_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_2" edge="1" parent="1" source="n1_1" target="n2_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_3" edge="1" parent="1" source="n1_2" target="n2_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_4" edge="1" parent="1" source="n1_2" target="n2_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_5" edge="1" parent="1" source="n1_3" target="n2_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_6" edge="1" parent="1" source="n1_3" target="n2_6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_7" edge="1" parent="1" source="n1_4" target="n2_7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_8" edge="1" parent="1" source="n1_4" target="n2_8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#004085;" value="Preguntas Opción Múltiple" vertex="1">
+          <mxGeometry height="45" width="165" x="375" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_1" edge="1" parent="1" source="n2_4" target="n3_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4_1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Catálogo de Opciones" vertex="1">
+          <mxGeometry height="40" width="140" x="300" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n4_2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Registro de Respuestas" vertex="1">
+          <mxGeometry height="40" width="140" x="460" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_1" edge="1" parent="1" source="n3_1" target="n4_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_2" edge="1" parent="1" source="n3_1" target="n4_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
